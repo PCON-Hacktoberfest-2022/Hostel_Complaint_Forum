@@ -7,11 +7,11 @@ the status of the steps taken by them in the app.
 # Database
 Firebase database is used in this app.
 # Local Setup :
-## 1. Fork this repository.
+## 1. Fork the repository.
 Fork this repository to your repository.
 
-## 2. Clone this repository
-For cloning the repository from Git
+## 2. Clone the repository
+For cloning this repository by using Git
 **use this command :**
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
