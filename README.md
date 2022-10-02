@@ -32,4 +32,7 @@ So you can also connect your Firebase database.
 > Select connect to Firebase.
 ```
 
+## 4. To run this project locally.
+Go to [CONTRIBUTION.md](https://github.com/PCON-Hacktoberfest-2022/Hostel_Complaint_Forum/blob/main/CONTRIBUTING.md) file.
+
 ## Happy Coding 😊😎
