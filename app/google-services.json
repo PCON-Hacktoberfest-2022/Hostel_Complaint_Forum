@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850134274696",
+    "project_id": "hostel-complaint-forum",
+    "storage_bucket": "hostel-complaint-forum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850134274696:android:8b6b1b5f6655730b4a853d",
+        "android_client_info": {
+          "package_name": "com.example.hostelcomplaintforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850134274696-g774rkkc97d5q4hn2bjjj1euh5h290qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH0xThztzXGivFwXkE1qgRUIUorU1b_fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850134274696-g774rkkc97d5q4hn2bjjj1euh5h290qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

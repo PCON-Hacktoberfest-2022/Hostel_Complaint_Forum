@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/public_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/all"
+        android:title="All" />
+
+    <item
+        android:enabled="true"
+        android:title="Hostel"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/a"
+                android:title="A" />
+            <item
+                android:id="@+id/b"
+                android:title="B" />
+            <item
+                android:id="@+id/c"
+                android:title="C" />
+            <item
+                android:id="@+id/d"
+                android:title="D" />
+            <item
+                android:id="@+id/e"
+                android:title="E" />
+            <item
+                android:id="@+id/f"
+                android:title="F" />
+            <item
+                android:id="@+id/g"
+                android:title="G" />
+            <item
+                android:id="@+id/h"
+                android:title="H" />
+            <item
+                android:id="@+id/i"
+                android:title="I" />
+            <item
+                android:id="@+id/j"
+                android:title="J" />
+            <item
+                android:id="@+id/k"
+                android:title="K" />
+        </menu>
+    </item>
+
+    <!--    <item-->
+    <!--        android:enabled="true"-->
+    <!--        android:title="Filter"-->
+    <!--        >-->
+    <!--        <menu>-->
+    <!--            <item-->
+    <!--                android:id="@+id/public_all"-->
+    <!--                android:title="All" />-->
+    <!--            <item-->
+    <!--                android:id="@+id/public_lan"-->
+    <!--                android:title="Lan" />-->
+    <!--            <item-->
+    <!--                android:id="@+id/public_water"-->
+    <!--                android:title="Water" />-->
+    <!--            <item-->
+    <!--                android:id="@+id/public_Ragging"-->
+    <!--                android:title="Ragging" />-->
+    <!--        </menu>-->
+    <!--    </item>-->
+
+
+
+</menu>
