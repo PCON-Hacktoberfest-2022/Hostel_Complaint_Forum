@@ -9,35 +9,31 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="#ACE1DC"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/margin_ten_dp"
+        android:background="#ACE1DC"
         android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Name"
-            android:id="@+id/name"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_ten_dp"
+                android:layout_marginTop="@dimen/margin_ten_dp"
+                android:layout_marginEnd="@dimen/margin_ten_dp"
+                android:text="Name"
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_margin="@dimen/margin_ten_dp"
                 android:src="@drawable/ic_baseline_delete_24" />
 
 
@@ -47,76 +43,79 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="11dp"
                 android:id="@+id/date"
-                android:textSize="14sp"
-                android:text="Date"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/margin_eleven_dp"
+                android:text="Date"
+                android:textSize="@dimen/text_size_14" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:textSize="16sp"
-                android:text="|"/>
+                android:paddingStart="@dimen/margin_five_dp"
+                android:paddingEnd="@dimen/margin_five_dp"
+                android:text="|"
+                android:textSize="@dimen/text_size_16" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="14sp"
                 android:id="@+id/hostel"
-                android:text="Hostel-J"/>
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:textSize="16sp"
+                android:text="Hostel-J"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
                 android:id="@+id/last_bar"
-                android:text="|"/>
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingEnd="10dp"
+                android:paddingStart="@dimen/margin_five_dp"
+                android:paddingEnd="@dimen/margin_five_dp"
+                android:text="|"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
                 android:id="@+id/room"
-                android:textSize="14sp"
-                android:text="Room Number"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/margin_ten_dp"
+                android:text="Room Number"
+                android:textSize="@dimen/text_size_14" />
         </LinearLayout>
 
         <TextView
+            android:id="@+id/subject_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:padding="@dimen/margin_ten_dp"
             android:text="Subject"
-            android:id="@+id/subject_item"
-            android:textStyle="bold"
-            android:padding="10dp"/>
+            android:textSize="@dimen/text_size_20"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/description_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:padding="@dimen/margin_ten_dp"
             android:text="Description of problem"
-            android:id="@+id/description_item"
-            android:textStyle="bold"
-            android:padding="10dp"/>
+            android:textSize="@dimen/text_size_15"
+            android:textStyle="bold" />
 
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/black"/>
+            android:layout_height="@dimen/margin_one_dp"
+            android:background="@color/black" />
+
         <TextView
+            android:id="@+id/reply_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reply"
-            android:id="@+id/reply_item"
-            android:padding="10dp"/>
+            android:padding="@dimen/margin_ten_dp"
+            android:text="Reply" />
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>

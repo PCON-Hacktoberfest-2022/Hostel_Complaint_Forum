@@ -12,42 +12,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/student_btn"
-        android:layout_margin="20dp"
+        android:layout_margin="@dimen/margin_twenty_dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:clickable="true"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="@dimen/margin_twenty_dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/teal_200"
-            android:paddingLeft="20dp"
-            android:paddingTop="10dp"
-            android:paddingRight="20dp"
-            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/margin_twenty_dp"
+            android:paddingTop="@dimen/margin_ten_dp"
+            android:paddingRight="@dimen/margin_twenty_dp"
+            android:paddingBottom="@dimen/margin_ten_dp"
             android:text="STUDENT"
-            android:textSize="40sp"
+            android:textSize="@dimen/text_size_40"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/faculty_btn"
-        android:layout_width="219dp"
+        android:layout_width="@dimen/margin_two_hundred_nine_dp"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="@dimen/margin_twenty_dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/teal_200"
             android:foreground="?android:attr/selectableItemBackground"
-            android:paddingLeft="23dp"
-            android:paddingTop="10dp"
-            android:paddingRight="20dp"
-            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/margin_twenty_three_dp"
+            android:paddingTop="@dimen/margin_ten_dp"
+            android:paddingRight="@dimen/margin_twenty_dp"
+            android:paddingBottom="@dimen/margin_ten_dp"
             android:text="FACULTY"
-            android:textSize="40sp"
+            android:textSize="@dimen/text_size_40_sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
