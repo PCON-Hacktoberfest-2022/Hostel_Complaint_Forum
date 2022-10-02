@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Faculty Register"
+                android:text="@string/faculty_register"
                 android:textColor="@color/black"
                 android:textSize="32sp"
                 android:textStyle="bold" />
@@ -42,7 +42,7 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="32dp"
-                android:hint="Email Address"
+                android:hint="@string/email_address"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="clear_text"
                 app:hintTextColor="@color/gray">
@@ -63,7 +63,7 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="32dp"
-                android:hint="Password"
+                android:hint="@string/password"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="password_toggle"
                 app:hintTextColor="@color/gray">
@@ -81,14 +81,14 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/round_tab"
-                android:text="Continue" />
+                android:text="@string/btn_continue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:text="or"
+                android:text="@string/or"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
             <ProgressBar
@@ -115,7 +115,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="8dp"
                     android:textColor="@color/blue"
-                    android:text="Login" />
+                    android:text="@string/login" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

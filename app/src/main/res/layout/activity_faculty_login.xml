@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Faculty Login"
+                android:text="@string/faculty_login"
                 android:textColor="@color/black"
                 android:textSize="32sp"
                 android:textStyle="bold" />
@@ -40,7 +40,7 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="32dp"
-                android:hint="Email Address"
+                android:hint="@string/email_address"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="clear_text"
                 app:hintTextColor="@color/gray">
@@ -59,7 +59,7 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="32dp"
-                android:hint="Password"
+                android:hint="@string/password"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="password_toggle"
                 app:hintTextColor="@color/gray">
@@ -77,7 +77,7 @@
                 android:layout_gravity="right"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="34dp"
-                android:text="Forgot Password?" />
+                android:text="@string/forgot_password" />
 
             <Button
                 android:id="@+id/continueBtnLogin"
@@ -86,14 +86,14 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/round_tab"
-                android:text="Continue" />
+                android:text="@string/btn_continue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:text="or"
+                android:text="@string/or"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -114,14 +114,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="New here?" />
+                    android:text="@string/new_here" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="10dp"
-                    android:text="Register"
+                    android:text="@string/register"
                     android:textColor="@color/blue" />
             </LinearLayout>
         </LinearLayout>

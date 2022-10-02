@@ -36,6 +36,15 @@
         <entry key="..\:/hcf/hostel-hackers/app/src/main/res/layout/complaint_list_item.xml" value="0.15989583333333332" />
         <entry key="..\:/hcf/hostel-hackers/app/src/main/res/menu/public_feed_menu.xml" value="0.1" />
         <entry key="..\:/hcf/hostel-hackers/app/src/main/res/menu/public_feed_navigation_menu.xml" value="0.125" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_add_complaint.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_faculty_login.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_faculty_registration.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_main.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_problem.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_public_feed.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_student_login.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/activity_student_register.xml" value="0.1802536231884058" />
+        <entry key="..\:/vidya/opensource/Hostel_Complaint_Forum/app/src/main/res/layout/complaint_list_item.xml" value="0.1802536231884058" />
       </map>
     </option>
   </component>
