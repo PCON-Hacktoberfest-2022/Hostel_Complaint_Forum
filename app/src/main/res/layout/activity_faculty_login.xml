@@ -18,9 +18,9 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                android:layout_margin="15dp"
+                android:layout_width="@dimen/margin_one_seventy_dp"
+                android:layout_height="@dimen/margin_one_seventy_dp"
+                android:layout_margin="@dimen/margin_fifteen_dp"
                 android:src="@drawable/login" />
 
             <TextView
@@ -29,7 +29,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Faculty Login"
                 android:textColor="@color/black"
-                android:textSize="32sp"
+                android:textSize="@dimen/text_size_32"
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -37,9 +37,9 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="32dp"
+                android:layout_marginLeft="@dimen/margin_thirty_two_dp"
+                android:layout_marginTop="@dimen/margin_fifteen_dp"
+                android:layout_marginRight="@dimen/margin_thirty_two_dp"
                 android:hint="Email Address"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="clear_text"
@@ -56,9 +56,9 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="32dp"
+                android:layout_marginLeft="@dimen/margin_thirty_two_dp"
+                android:layout_marginTop="@dimen/margin_fifteen_dp"
+                android:layout_marginRight="@dimen/margin_thirty_two_dp"
                 android:hint="Password"
                 app:boxStrokeColor="@color/black"
                 app:endIconMode="password_toggle"
@@ -75,16 +75,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="34dp"
+                android:layout_marginTop="@dimen/margin_five_dp"
+                android:layout_marginRight="@dimen/margin_thirty_four_dp"
                 android:text="Forgot Password?" />
 
             <Button
                 android:id="@+id/continueBtnLogin"
                 android:layout_width="wrap_content"
-                android:layout_height="36dp"
+                android:layout_height="@dimen/margin_thirty_six_dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="@dimen/margin_fifteen_dp"
                 android:background="@drawable/round_tab"
                 android:text="Continue" />
 
@@ -92,7 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/margin_ten_dp"
                 android:text="or"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
@@ -101,7 +101,7 @@
                 android:id="@+id/progressBarLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/margin_ten_dp"
                 android:visibility="gone" />
 
             <LinearLayout
@@ -113,14 +113,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="@dimen/margin_ten_dp"
                     android:text="New here?" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="@dimen/margin_eight_dp"
+                    android:layout_marginTop="@dimen/margin_ten_dp"
                     android:text="Register"
                     android:textColor="@color/blue" />
             </LinearLayout>

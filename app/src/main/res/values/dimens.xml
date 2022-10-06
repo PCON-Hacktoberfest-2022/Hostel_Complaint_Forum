@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--padding and margin-->
+    <dimen name="margin_zero_dp">0dp</dimen>
+    <dimen name="margin_one_dp">1dp</dimen>
+    <dimen name="margin_two_dp">2dp</dimen>
+    <dimen name="margin_three_dp">3dp</dimen>
+    <dimen name="margin_four_dp">4dp</dimen>
+    <dimen name="margin_five_dp">5dp</dimen>
+    <dimen name="margin_six_dp">6dp</dimen>
+    <dimen name="margin_seven_dp">7dp</dimen>
+    <dimen name="margin_eight_dp">8dp</dimen>
+    <dimen name="margin_nine_dp">9dp</dimen>
+    <dimen name="margin_ten_dp">10dp</dimen>
+    <dimen name="margin_eleven_dp">11dp</dimen>
+    <dimen name="margin_twelve_dp">12dp</dimen>
+    <dimen name="margin_thirteen_dp">13dp</dimen>
+    <dimen name="margin_fourteen_dp">14dp</dimen>
+    <dimen name="margin_fifteen_dp">15dp</dimen>
+    <dimen name="margin_sixteen_dp">16dp</dimen>
+    <dimen name="margin_twenty_dp">20dp</dimen>
+    <dimen name="margin_twenty_three_dp">23dp</dimen>
+    <dimen name="margin_thirty_two_dp">32dp</dimen>
+    <dimen name="margin_thirty_four_dp">34dp</dimen>
+    <dimen name="margin_thirty_six_dp">36dp</dimen>
+    <dimen name="margin_forty_dp">40dp</dimen>
+    <dimen name="margin_fifty_dp">50dp</dimen>
+    <dimen name="margin_sixty_five_dp">65dp</dimen>
+    <dimen name="margin_one_seventy_dp">170dp</dimen>
+    <dimen name="margin_two_hundred_nine_dp">219dp</dimen>
+
+    <!--Text size-->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_40_sp">40sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+
+</resources>

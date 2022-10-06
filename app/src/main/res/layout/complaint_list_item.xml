@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="20dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginStart="20dp"
+    app:cardCornerRadius="@dimen/margin_twenty_dp"
+    android:layout_marginTop="@dimen/margin_twenty_dp"
+    android:layout_marginStart="@dimen/margin_twenty_dp"
     android:id="@+id/main_card"
-    android:layout_marginEnd="20dp">
+    android:layout_marginEnd="@dimen/margin_twenty_dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,12 +18,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="@dimen/text_size_20"
             android:text="Name"
             android:id="@+id/name"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"/>
+            android:layout_marginTop="@dimen/margin_ten_dp"
+            android:layout_marginStart="@dimen/margin_ten_dp"
+            android:layout_marginEnd="@dimen/margin_ten_dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,59 +32,59 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="11dp"
+                android:paddingStart="@dimen/margin_eleven_dp"
                 android:id="@+id/date"
-                android:textSize="14sp"
+                android:textSize="@dimen/text_size_14"
                 android:text="Date"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:textSize="16sp"
+                android:paddingStart="@dimen/margin_five_dp"
+                android:paddingEnd="@dimen/margin_five_dp"
+                android:textSize="@dimen/text_size_16"
                 android:text="|"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
+                android:textSize="@dimen/text_size_14"
                 android:id="@+id/hostel"
                 android:text="Hostel-J"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:textSize="16sp"
+                android:paddingStart="@dimen/margin_five_dp"
+                android:paddingEnd="@dimen/margin_five_dp"
+                android:textSize="@dimen/text_size_16"
                 android:id="@+id/last_bar"
                 android:text="|"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingEnd="10dp"
+                android:paddingEnd="@dimen/margin_ten_dp"
                 android:id="@+id/room"
-                android:textSize="14sp"
+                android:textSize="@dimen/text_size_14"
                 android:text="Room Number"/>
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="@dimen/text_size_20"
             android:text="Subject"
             android:id="@+id/subject_item"
             android:textStyle="bold"
-            android:padding="10dp"/>
+            android:padding="@dimen/margin_ten_dp"/>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/margin_one_dp"
             android:background="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reply"
             android:id="@+id/reply_item"
-            android:padding="10dp"/>
+            android:padding="@dimen/margin_ten_dp"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

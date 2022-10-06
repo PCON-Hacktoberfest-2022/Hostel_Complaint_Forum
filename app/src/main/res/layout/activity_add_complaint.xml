@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="New Complaint"
-            android:textSize="28sp"
+            android:textSize="@dimen/text_size_28"
             android:textStyle="bold" />
 
         <ImageView
@@ -33,7 +33,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:paddingBottom="65dp"
+        android:paddingBottom="@dimen/margin_sixty_five_dp"
         android:clipToPadding="false"
         android:layout_height="match_parent">
 
@@ -47,12 +47,12 @@
                 android:id="@+id/subject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="15dp"
+                android:layout_marginStart="@dimen/margin_fifteen_dp"
+                android:layout_marginTop="@dimen/margin_fifteen_dp"
+                android:layout_marginEnd="@dimen/margin_fifteen_dp"
                 android:background="@drawable/round_tab_beta"
                 android:hint="Subject"
-                android:padding="10dp"
+                android:padding="@dimen/margin_ten_dp"
                 android:textColorHint="#616161"
                 android:maxLength="30"
                 tools:ignore="LabelFor" />
@@ -61,15 +61,15 @@
                 android:id="@+id/descriptionEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="15dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginStart="@dimen/margin_fifteen_dp"
+                android:layout_marginTop="@dimen/margin_fifteen_dp"
+                android:layout_marginEnd="@dimen/margin_fifteen_dp"
+                android:layout_marginBottom="@dimen/margin_five_dp"
                 android:background="@drawable/round_tab_beta"
                 android:gravity="top"
                 android:hint="Description"
                 android:lines="15"
-                android:padding="10dp"
+                android:padding="@dimen/margin_ten_dp"
                 android:textColorHint="#616161"
                 tools:ignore="LabelFor" />
 
@@ -77,13 +77,13 @@
                 android:id="@+id/imagePreviewLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_margin="@dimen/margin_fifteen_dp"
                 android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/imagePreview"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_width="@dimen/margin_zero_dp"
+                    android:layout_height="@dimen/margin_zero_dp"
                     app:layout_constraintDimensionRatio="H,1:1"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -93,8 +93,8 @@
                     android:scaleType="centerCrop" />
 
                 <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_width="@dimen/margin_zero_dp"
+                    android:layout_height="@dimen/margin_zero_dp"
                     android:orientation="horizontal"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -105,7 +105,7 @@
                         android:id="@+id/leftPreBtn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="15dp"
+                        android:layout_margin="@dimen/margin_fifteen_dp"
                         android:layout_weight="1"
                         android:scaleType="centerCrop" />
 
@@ -113,7 +113,7 @@
                         android:id="@+id/rightPreBtn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="15dp"
+                        android:layout_margin="@dimen/margin_fifteen_dp"
                         android:layout_weight="1" />
                 </LinearLayout>
 
@@ -123,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/anonymous"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="@dimen/margin_fifteen_dp"
                 android:text="Anonymous"
                 android:onClick="onCheckBoxClick"/>
 
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:id="@+id/send"
-                android:layout_margin="15dp"
+                android:layout_margin="@dimen/margin_fifteen_dp"
                 android:background="@color/teal_200"
                 android:text="Send"/>
 
