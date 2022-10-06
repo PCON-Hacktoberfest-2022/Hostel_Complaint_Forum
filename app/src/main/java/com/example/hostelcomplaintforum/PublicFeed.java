@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -205,7 +206,29 @@ public class PublicFeed extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.public_feed_menu, menu);
-        return true;
+        MenuItem menuItem= menu.findItem(R.id.public_search);
+        SearchView searchView= (SearchView) menuItem.getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                String inputs =s.toLowerCase();
+                ArrayList<ComplaintItem> filteredFiles = new ArrayList<ComplaintItem>();
+                for(ComplaintItem item : mFiles){
+                    if (item.name.contains(inputs) || item.email.contains(inputs)){
+                        filteredFiles.add(item);
+                    }
+                }
+                complaintAdapter.updateData(filteredFiles);
+
+                return false;
+            }
+        });
+        return super.onCreateOptionsMenu(menu);
     }
 
     private void configureNavigationDrawer() {
