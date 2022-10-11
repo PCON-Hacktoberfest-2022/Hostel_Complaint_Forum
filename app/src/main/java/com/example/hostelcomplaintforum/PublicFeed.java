@@ -48,10 +48,7 @@ public class PublicFeed extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_public_feed);
-        drawerLayout = findViewById(R.id.my_drawer_layout);
-        toolbar = findViewById(R.id.public_toolBar);
-        addBtn = findViewById(R.id.add_complaint);
-        recyclerView = findViewById(R.id.public_recycler_view);
+        initilization();
         user=FirebaseAuth.getInstance().getCurrentUser();
         FirebaseFirestore.getInstance()
                 .collection("users")
@@ -292,6 +289,14 @@ public class PublicFeed extends AppCompatActivity {
         Pattern pattern= Pattern.compile(emailRegex);
         return pattern.matcher(s).matches();
     }
+    
+    public void initiliazation(){
+        drawerLayout = findViewById(R.id.my_drawer_layout);
+        toolbar = findViewById(R.id.public_toolBar);
+        addBtn = findViewById(R.id.add_complaint);
+        recyclerView = findViewById(R.id.public_recycler_view);
+    }
+    
     @Override
     public void onBackPressed() {
         if (this.drawerLayout.isDrawerOpen(GravityCompat.START)) {
