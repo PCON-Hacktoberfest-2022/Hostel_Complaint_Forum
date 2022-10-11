@@ -26,5 +26,85 @@ public class ComplaintItem {
         this.reply = reply;
         this.time = time;
     }
+    
+    public String getSubject(){
+        return subject;
+    }
+    
+    public void setSubject(String subject){
+        this.subject=subject;
+    }
+    
+    public String getDesc(){
+        return desc;
+    }
+    
+    public void setDesc(String desc){
+        this.desc=desc;
+    }
+    
+    public String getMode(){
+        return mode;
+    }
+    
+    public void setMode(String mode){
+        this.mode=mode;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public void setName(String name){
+        this.name=name;
+    }
+    
+    public String getEmail(){
+        return email;
+    }
+    
+    public void setEmail(String email){
+        this.email=email;
+    }
+    
+    public String getRoom(){
+        return room;
+    }
+    
+    public void setRoom(String room){
+        this.room=room;
+    }
+    
+    public String getHostel(){
+        return hostel;
+    }
+    
+    public void setHostel(String hostel){
+        this.hostel=hostel;
+    }
+    
+    public long getTime(){
+        return time;
+    }
+    
+    public void setTime(long time){
+        this.time=time;
+    }
+    
+    public String getState(){
+        return state;
+    }
+    
+    public void setState(String state){
+        this.state=state;
+    }
+    
+    public String getReply(){
+        return reply;
+    }
+    
+    public void setReply(String reply){
+        this.reply=reply;
+    }
 
 }
