@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         if(FirebaseAuth.getInstance().getCurrentUser()==null) {
             student.setOnClickListener(view -> {
                 startActivity(new Intent(getApplicationContext(), StudentLogin.class));
-//                Log.d("Error", "Button clicked");
                 finish();
             });
 
