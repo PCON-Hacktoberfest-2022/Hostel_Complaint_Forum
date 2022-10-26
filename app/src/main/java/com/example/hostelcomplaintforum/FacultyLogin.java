@@ -173,7 +173,7 @@ public class FacultyLogin extends AppCompatActivity {
         if(s==null || s.isEmpty()){
             return false;
         }
-        String emailRegex= "^[a-zA-Z0-9_+&-]+(?:\\."+"[a-zA-Z0-9_+&-]+)*@"+"(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
+        String emailRegex= "^[a-zA-Z0-9_+&-]+(?:\\."+"[a-zA-Z0-9_+&-]+)*@"+"(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$"; // email verification
         Pattern pattern= Pattern.compile(emailRegex);
         return pattern.matcher(s).matches();
     }
