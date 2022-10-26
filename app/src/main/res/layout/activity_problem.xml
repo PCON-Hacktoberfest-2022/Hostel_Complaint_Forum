@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Name"
+            android:text="@string/name"
             android:id="@+id/name"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
@@ -53,7 +53,7 @@
                 android:paddingStart="11dp"
                 android:id="@+id/date"
                 android:textSize="14sp"
-                android:text="Date"/>
+                android:text="@string/date"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
                 android:id="@+id/hostel"
-                android:text="Hostel-J"/>
+                android:text="@string/hostel_j"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,14 +81,14 @@
                 android:paddingEnd="10dp"
                 android:id="@+id/room"
                 android:textSize="14sp"
-                android:text="Room Number"/>
+                android:text="@string/room_number"/>
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Subject"
+            android:text="@string/subject"
             android:id="@+id/subject_item"
             android:textStyle="bold"
             android:padding="10dp"/>
@@ -97,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="Description of problem"
+            android:text="@string/description_of_problem"
             android:id="@+id/description_item"
             android:textStyle="bold"
             android:padding="10dp"/>
@@ -110,7 +110,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reply"
+            android:text="@string/reply"
             android:id="@+id/reply_item"
             android:padding="10dp"/>
 

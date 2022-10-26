@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="New Complaint"
+            android:text="@string/new_complaint"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/anonymous"
                 android:layout_marginStart="15dp"
-                android:text="Anonymous"
+                android:text="@string/anonymous"
                 android:onClick="onCheckBoxClick"/>
 
             <Button

@@ -25,7 +25,7 @@
             android:paddingTop="10dp"
             android:paddingRight="20dp"
             android:paddingBottom="10dp"
-            android:text="STUDENT"
+            android:text="@string/student"
             android:textSize="40sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
@@ -46,7 +46,7 @@
             android:paddingTop="10dp"
             android:paddingRight="20dp"
             android:paddingBottom="10dp"
-            android:text="FACULTY"
+            android:text="@string/faculty"
             android:textSize="40sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
